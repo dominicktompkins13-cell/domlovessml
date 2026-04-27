@@ -218,8 +218,17 @@ export default function App() {
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ delay: index * 0.05 }}
                       onClick={() => handleGameSelect(game)}
-                      className="group"
+                      className="group relative"
                     >
+                      {/* Tooltip */}
+                      <div className="absolute -top-4 left-1/2 -translate-x-1/2 -translate-y-full w-64 p-4 bg-slate-900 border border-slate-700 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none z-50 transform translate-y-0 group-hover:-translate-y-4 backdrop-blur-xl">
+                        <div className="text-[10px] font-black text-indigo-400 uppercase tracking-widest mb-2 border-b border-slate-800 pb-1">Index Details</div>
+                        <p className="text-[11px] text-slate-300 leading-relaxed italic">
+                          {game.description}
+                        </p>
+                        <div className="absolute top-full left-1/2 -translate-x-1/2 w-4 h-4 bg-slate-900 border-r border-b border-slate-700 rotate-45 -mt-2" />
+                      </div>
+
                       <div className="bento-card bento-card-interactive p-4 h-full flex flex-col">
                         <div className="aspect-[4/3] rounded-2xl overflow-hidden mb-5 relative bg-slate-800 border border-slate-700/50">
                           <img 
