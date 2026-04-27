@@ -1,0 +1,74 @@
+[
+  {
+    "id": "slope",
+    "name": "Slope",
+    "description": "Navigate a ball through a 3D futuristic course, avoiding obstacles and staying on the track.",
+    "thumbnail": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?q=80&w=400&h=225&auto=format&fit=crop",
+    "iframeUrl": "https://velocity-games.github.io/slope/",
+    "category": "Action",
+    "tags": ["3D", "Running", "Fast-paced"]
+  },
+  {
+    "id": "tunnel-rush",
+    "name": "Tunnel Rush",
+    "description": "Speed through colorful tunnels, dodging barriers at breakneck speeds.",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=400&h=225&auto=format&fit=crop",
+    "iframeUrl": "https://tunnel-rush.io/",
+    "category": "Avoidance",
+    "tags": ["Speed", "Reflex", "Colorful"]
+  },
+  {
+    "id": "retro-bowl",
+    "name": "Retro Bowl",
+    "description": "Manage your own NFL team and lead them to glory in this retro-style football game.",
+    "thumbnail": "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?q=80&w=400&h=225&auto=format&fit=crop",
+    "iframeUrl": "https://game316011.konggames.com/gamez/0031/6011/live/index.html",
+    "category": "Sports",
+    "tags": ["Football", "Pixel Art", "Management"]
+  },
+  {
+    "id": "drive-mad",
+    "name": "Drive Mad",
+    "description": "Drive your car through challenging courses with unique physics and obstacles.",
+    "thumbnail": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=400&h=225&auto=format&fit=crop",
+    "iframeUrl": "https://drive-mad.github.io/",
+    "category": "Driving",
+    "tags": ["Physics", "Car", "Puzzle"]
+  },
+  {
+    "id": "bitlife",
+    "name": "BitLife",
+    "description": "Live a thousand lives in this text-based life simulator where your choices matter.",
+    "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=400&h=225&auto=format&fit=crop",
+    "iframeUrl": "https://bitlife.github.io/",
+    "category": "Simulation",
+    "tags": ["Life", "Text-based", "Choices"]
+  },
+  {
+    "id": "cookie-clicker",
+    "name": "Cookie Clicker",
+    "description": "Click the cookie, hire grandmas, and build a cookie empire in this classic idle game.",
+    "thumbnail": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=400&h=225&auto=format&fit=crop",
+    "iframeUrl": "https://orteil.dashnet.org/cookieclicker/",
+    "category": "Idle",
+    "tags": ["Clicker", "Incremental", "Addictive"]
+  },
+  {
+    "id": "2048",
+    "name": "2048",
+    "description": "Slide tiles and combine them to reach the 2048 tile in this addictive puzzle game.",
+    "thumbnail": "https://images.unsplash.com/photo-1616423640778-28d1b53229bd?q=80&w=400&h=225&auto=format&fit=crop",
+    "iframeUrl": "https://play2048.co/",
+    "category": "Puzzle",
+    "tags": ["Strategy", "Numbers", "Logic"]
+  },
+  {
+    "id": "subway-surfers",
+    "name": "Subway Surfers",
+    "description": "Dash as fast as you can, dodge the oncoming trains, and help the crew escape the inspector.",
+    "thumbnail": "https://images.unsplash.com/photo-1534423861386-854141df4901?q=80&w=400&h=225&auto=format&fit=crop",
+    "iframeUrl": "https://subway-surfers.github.io/",
+    "category": "Action",
+    "tags": ["Runner", "Mobile-classic", "Reflex"]
+  }
+]
